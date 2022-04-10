@@ -70,5 +70,24 @@ public class teste01 {
         }
 
 
+
+        Carro carro1 = new Carro();
+
+
+        carro1.setRodas(4);
+        carro1.setCor("Azul");
+        carro1.setModelo("VW Gol");
+        carro1.setCaptanque(12);
+        carro1.setMotor(1.4);
+
+        System.out.println(carro1.getCor());
+        System.out.println(carro1.getModelo());
+        System.out.println(carro1.getMotor());
+        System.out.println(carro1.getRodas());
+        System.out.println(carro1.getCaptanque());
+        System.out.println(carro1.valorTotalDoTanque(4.20));
+
+
+
     }
 }
